@@ -38,7 +38,7 @@ public class Pedidos {
 
     public void setQuantidadeEnviada(int quantidadeEnviada) {
         if (quantidadeEnviada < quantidadeVendida) {
-            throw new IllegalArgumentException("Quantidade que está sendo enviada é menor do que a quantidade mínima para envio!");
+            throw new IllegalArgumentException("Quantidade que está sendo enviada é menor do que a quantidade mínima para envio!!");
         } else {
             this.quantidadeEnviada = quantidadeEnviada;
         }
