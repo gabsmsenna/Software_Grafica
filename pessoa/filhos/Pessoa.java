@@ -22,7 +22,7 @@ public class Pessoa {
          if (nome != null && !nome.isEmpty()) {
             this.nome = nome;
         } else {
-            throw new IllegalArgumentException("Nome inválido");
+            throw new IllegalArgumentException("Nome inválido!");
         }
     }
 

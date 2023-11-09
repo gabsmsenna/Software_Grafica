@@ -34,7 +34,7 @@ public class Cliente extends Pessoa {
         this.tipoCliente = tipoCliente;
     }
 
-    //Criando dos métodos do atributo "têm um" nesta classe
+    //Criando dos métodos do atributo "têm um" nesta classe!
     public void setNomePedido (String nomePedido) {
         pedidos.setNomePedido(nomePedido);
     }

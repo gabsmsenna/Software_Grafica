@@ -15,7 +15,7 @@ public class Etiqueta {
         if (nomeEtiqueta != null && !nomeEtiqueta.isEmpty()) {
             this.nomeEtiqueta = nomeEtiqueta;
         } else {
-            throw new IllegalArgumentException("Nome inválido");
+            throw new IllegalArgumentException("Nome inválido!");
         }
     }
 

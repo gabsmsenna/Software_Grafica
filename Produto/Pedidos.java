@@ -26,7 +26,7 @@ public class Pedidos {
 
     public void setQuantidadeVendida(int quantidadeVendida) {
         if (quantidadeVendida < 0) {
-            throw new IllegalArgumentException("Valor inválido");
+            throw new IllegalArgumentException("Valor inválido!");
         } else {
             this.quantidadeVendida = quantidadeVendida;
         }
